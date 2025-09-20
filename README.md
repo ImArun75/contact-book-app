@@ -32,10 +32,25 @@ A full-stack web application for managing contacts. Users can add, view, and del
 
 ## 📁 Project Structure
 
+```text
 contact-book-app/
+├── backend/                 # Node.js/Express server and API
+│   ├── models/              # Mongoose models (e.g., Contact.js)
+│   ├── index.js            # Entry point for backend
+│   ├── package.json
+│   └── .env                 # Environment variables (not committed)
 │
-├── frontend/ # React application
-└── backend/ # Node.js/Express server and API
+├── frontend/                # React application
+│   ├── src/
+│   │   ├── components/      # React components
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── public/
+│   ├── package.json
+│  
+│
+├── .gitignore
+└── README.md
 
 
 ---
