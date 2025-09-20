@@ -5,7 +5,7 @@ import ContactList from './components/ContactList';
 import Pagination from './components/Pagination';
 import './App.css'; 
 
-const API_URL = 'https://contact-book-app-rho.vercel.app/contacts';
+const API_URL = 'https://contact-book-api.onrender.com';
 
 function App() {
   const [contacts, setContacts] = useState([]);
