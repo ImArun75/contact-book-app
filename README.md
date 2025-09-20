@@ -52,7 +52,7 @@ contact-book-app/
 ├── .gitignore
 └── README.md
 
-
+```
 ---
 
 ## 🚀 Getting Started
