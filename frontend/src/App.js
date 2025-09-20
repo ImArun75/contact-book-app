@@ -62,6 +62,7 @@ function App() {
       <ContactForm onAdd={handleAddContact} />
       {loading ? (
         <p>Loading contacts...</p>
+       {console.log("Loading ...")}
       ) : (
         <ContactList contacts={contacts} onDelete={handleDeleteContact} />
       )}
