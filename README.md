@@ -55,10 +55,15 @@ contact-book-app/
 ```bash
 git clone https://github.com/your-username/contact-book-app.git
 cd contact-book-app
-3. Backend Setup
+
+````
+---
+### 3. Backend Setup
+
+```bash
 cd backend
 npm install
-
+```
 
 Create a .env file in backend with your environment variables:
 
@@ -68,15 +73,23 @@ PORT=5000
 
 Start the server (with nodemon if installed):
 
+```bash
 npm run dev    # or: node server.js
 
-4. Frontend Setup
+```
+
+---
+
+### 4. Frontend Setup
 
 In a new terminal window:
 
+```bash
 cd frontend
 npm install
 npm start
+
+```
 
 
 This runs the React development server (default at http://localhost:3000).
