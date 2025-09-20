@@ -9,13 +9,7 @@ const Contact = require("./models/index.js");
 
 const app = express();
 app.use(express.json());
-app.use(cors(
-  {
-    origin: ["https://contact-book-app-frontend-two.vercel.app"],
-    methods: ["POST", "GET", "DELETE"],
-    credentials: true
-  }
-));
+app.use(cors());
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("Connected to MongoDB"))
