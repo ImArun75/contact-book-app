@@ -68,7 +68,7 @@ app.get('/contacts', async (req, res) => {
     });
   } catch (err) {
     console.error('API Error:', err);
-    res.status(500).json({ error: 'Server error', details: err.message });
+    res.status(500).json({ error: 'Email already exists', details: err.message });
   }
 });
 
